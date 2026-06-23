@@ -78,14 +78,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "startup10k" },
+      { name: "description", content: "ProcurePilot Pro is an AI procurement platform that evaluates vendors, flags contract risks, and identifies savings." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "startup10k" },
+      { property: "og:description", content: "ProcurePilot Pro is an AI procurement platform that evaluates vendors, flags contract risks, and identifies savings." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "startup10k" },
+      { name: "twitter:description", content: "ProcurePilot Pro is an AI procurement platform that evaluates vendors, flags contract risks, and identifies savings." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/80fed208-252e-481c-929d-d2f2a2b02b13/id-preview-dd35385c--6a7f4a1f-275d-4a9a-828a-c64779bc5af4.lovable.app-1782117168953.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/80fed208-252e-481c-929d-d2f2a2b02b13/id-preview-dd35385c--6a7f4a1f-275d-4a9a-828a-c64779bc5af4.lovable.app-1782117168953.png" },
     ],
     links: [
       {
